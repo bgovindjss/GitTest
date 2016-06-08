@@ -20,7 +20,7 @@ TestDotNet.exe -b user1 -c asdf1234 -a FPE -d yes -e yes -u 64 -x PKCS7 -s 8 -w 
 TestDotNet.exe -b user1 -c asdfd1234 -a FPE -d yes -e yes -u 64 -x PKCS7 -s 8 -w ecb -l logfile.txt -t 1 -f 6 -z 128 -g 4  -k FPE_256 -data 'ab123456'
 TestDotNet.exe -b user1 -c asdf1234 -a FPE -d yes -e yes -u 64 -x PKCS7 -s 8 -w ecb -l logfile.txt -t 1 -f 6 -z 128 -g 4  -k FPE_128 -data 'abc123456'
 TestDotNet.exe -b user1 -c asdf1234 -a FPE -d yes -e yes -u 64 -x PKCS7 -s 8 -w ecb -l logfile.txt -t 1 -f 6 -z 128 -g 4  -k FPE_192 -data 'abc123456'
-TestDotNet.exe -b user1 -c asdf1234 -a FPE -d yes -e yes -u 64 -x PKCS7 -s 8 -w ecb -l logfile.txt -t 1 -f 6 -z 128 -g 4  -k FPE_256 -data 'abc123456'
+TestDotNet.exe -b user1 -c asdf15234 -a FPE -d yes -e yes -u 64 -x PKCS7 -s 8 -w ecb -l logfile.txt -t 1 -f 6 -z 128 -g 4  -k FPE_256 -data 'abc123456'
 TestDotNet.exe -b user1 -c asdf1234 -a FPE -d yes -e yes -u 64 -x PKCS7 -s 8 -w ecb -l logfile.txt -t 1 -f 6 -z 128 -g 4  -k FPE_128 -data 'ab12abcd'
 TestDotNet.exe -b user1 -c asdf1234 -a FPE -d yes -e yes -u 64 -x PKCS7 -s 8 -w ecb -l logfile.txt -t 1 -f 6 -z 128 -g 4  -k FPE_192 -data 'ab12abcd'
 TestDotNet.exe -b user1 -c asdf1234 -a FPE -d yes -e yes -u 64 -x PKCS7 -s 8 -w ecb -l logfile.txt -t 1 -f 6 -z 128 -g 4  -k FPE_256 -data 'ab12abcd'
