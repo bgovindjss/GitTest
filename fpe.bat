@@ -1,4 +1,5 @@
 rem ##################################   With User fpe_first2_last4   #######################################################################
+echo "haha"
 TestDotNet.exe -b user1 -c asdf1234 -a FPE -d yes -e yes -u 64 -x PKCS7 -s 8 -w ecb -l logfile.txt -t 1 -f 6 -z 128 -g 4  -k FPE_128 -data '12345678'
 TestDotNet.exe -b user1 -c asdf1234 -a FPE -d yes -e yes -u 64 -x PKCS7 -s 8 -w ecb -l logfile.txt -t 1 -f 6 -z 128 -g 4  -k FPE_192 -data '12345678'
 TestDotNet.exe -b user1 -c asdf1234 -a FPE -d yes -e yes -u 64 -x PKCS7 -s 8 -w ecb -l logfile.txt -t 1 -f 6 -z 128 -g 4  -k FPE_256 -data '12345678'
